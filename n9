@@ -1,0 +1,17 @@
+import numpy as np
+n1=np.array([2,2,3,2,1])
+n2=np.array([2,3,4,3,1])
+print("orginal array is")
+print(n1)
+print(n2)
+print(n1==n2)
+print(np.equal(n1,n2))
+
+
+
+
+orginal array is
+[2 2 3 2 1]
+[2 3 4 3 1]
+[ True False False False  True]
+[ True False False False  True]
